@@ -7,17 +7,17 @@
 _/___|/____(___ _/___/___(___/_(___/_(___/_
                             /              
                         (_ /               
- 添加一名作者
-  版本：1.1
-  日期：2021年11月8日15:22:32
-  此 CSS 仅供个人使用。 
-  它可能随时被撤销或修改，恕不另行通知。请告知。
-  人物画生成：http://patorjk.com/software/taag 风格：标准
+  Author: aobacore
+  Version: 1.1
+  Date: 15:22:32, November 8, 2021
+  This CSS is only for personal use. 
+  It may be revoked or modified without notice at any time. Please be informed.
+  Character drawing generation: http://patorjk.com/software/taag Style: Standard
   */  
   
-  /*百度HM*/ 
+  /*Baidu HM*/ 
   var _hmt = _hmt || [];
-（功能（） {
+(function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?d7aaea180f9da3780cf1ef0c1036b7b4";
   var s = document.getElementsByTagName("script")[0]; 
@@ -25,74 +25,75 @@ _/___|/____(___ _/___/___(___/_(___/_(___/_
 })();                     
 
 }   
-    。卡片 {
-    背景：#fff;
-    背景大小：包含；
-    文本对齐：居中；
-    填充：1em；
+    .card {
+    background: #fff;
+    background-size: contain;
+    text-align: center;
+    padding: 1em;
   }
   
   .card h1 {
-    字体大小：20px；
-    边距：5px 自动 0；
-    字母间距：1px；
+    font-size: 20px;
+    margin: 5px auto 0;
+    letter-spacing: 1px;
   }
   .card h2 {
-    保证金：自动；
-    颜色：#5c6170；
-    字体粗细：300；
-    字体大小：15px；
+    margin: auto;
+    color: #5c6170;
+    font-weight: 300;
+    font-size: 15px;
   }
-  .card 红色 {
-    保证金：自动；
-    颜色：#da0000；
-    字体粗细：300；
-    字体大小：15px；
+  .card red {
+    margin: auto;
+    color: #da0000;
+    font-weight: 300;
+    font-size: 15px;
   }
-  .card 蓝色 {
-    保证金：自动；
-    颜色：#0099ff；
-    字体粗细：300；
-    字体大小：15px；
+  .card blue {
+    margin: auto;
+    color: #0099ff;
+    font-weight: 300;
+    font-size: 15px;
   }
-  .card 黄色 {
-    保证金：自动；
-    颜色：#fffb00；
-    字体粗细：300；
-    字体大小：15px；
+  .card yellow {
+    margin: auto;
+    color: #fffb00;
+    font-weight: 300;
+    font-size: 15px;
   }
-  .card 绿色 {
-    保证金：自动；
-    颜色：#00e626；
-    字体粗细：300；
-    字体大小：15px；
+  .card green {
+    margin: auto;
+    color: #00e626;
+    font-weight: 300;
+    font-size: 15px;
   }
-  .card 橙色{
-    保证金：自动；
-    颜色：#ff8800；
-    字体粗细：300；
-    字体大小：15px；
+  .card orange {
+    margin: auto;
+    color: #ff8800;
+    font-weight: 300;
+    font-size: 15px;
   }
 
   .card .button {
-    显示：块；
-    文字装饰：无；
-    背景：#666CD9；
-    颜色：#f9f9f9；
-    填充：12px；
-    边界：无；
-    边框半径：25px；
-    边距顶部：30px；
-    字体大小：16px；
-    字体粗细：700；
-    最小宽度：200px；
-    过渡：0.2s；
+    display: block;
+    text-decoration: none;
+    background: #666CD9;
+    color: #f9f9f9;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 200px;
+    transition: 0.2s;
   }
-  .card .button 跨度 {
-    字体大小：20px；
-    行高：1；
-    垂直对齐：顶部；
+  .card .button span {
+    font-size: 20px;
+    line-height: 1;
+    vertical-align: top;
   }
-  .card .button：悬停{
-    背景：#5D4AD9；
+  .card .button:hover {
+    background: #5D4AD9;
   }
+
